@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class SecondTasks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
 
-
-        String text = "KOL EINU ŠUNIE LOK".replaceAll(" ", "");
+        String input = sc.nextLine();
+        String text = input.replaceAll(" ", "");
 
         boolean isPalindrome = true;
         for(int i = 0; i < text.length(); i++){
